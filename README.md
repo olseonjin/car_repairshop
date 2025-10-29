@@ -19,6 +19,7 @@ Frontend: JSP, JSTL, Bootstrap 5
 Database: MySQL
 API 연동: 공공데이터포털 자동차정비업체 API
 Build Tool: Gradle
+
 📁 프로젝트 구조
 car_repair_shop/
 ├── build.gradle
@@ -31,15 +32,19 @@ car_repair_shop/
 │   │   └── webapp/WEB-INF/views/         # JSP View
 ├── mybatis-config.xml
 └── application.properties
+
 ⚙️ 실행 방법
 MySQL에 데이터베이스 atom 생성
 테이블 생성 SQL 실행 (repair_shop, user, review, repair_shop_request)
 application.properties에서 DB 계정 정보 확인
 ./gradlew bootRun 또는 IDE로 실행
 브라우저에서 http://localhost:8485/main 접속
+
 🧩 공공데이터 API 정보
 API명: 자동차정비업체 API
 제공처: 공공데이터포털 (https://www.data.go.kr)
+
+
 🙋 팀원 기여
 기획 및 발표: 권준우 외 3인
 백엔드 개발: Spring Boot 기반 CRUD 및 동기화 구현
